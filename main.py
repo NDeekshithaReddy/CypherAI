@@ -7,7 +7,7 @@ import subprocess
 import time
 from threading import Thread
 
-os.environ["GEMINI_API_KEY"] = "AIzaSyARj_UwL4rSnmEOrP7RFRx3yU54NmMsRgY"
+os.environ["GEMINI_API_KEY"] = "YOUR_API_KEY"
 speaker = win32com.client.Dispatch("SAPI.SpVoice")
 
 sleeping = False
